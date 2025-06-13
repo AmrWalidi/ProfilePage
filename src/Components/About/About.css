@@ -1,0 +1,295 @@
+#about {
+    margin: 18.23vw 7.23vw 5.85vw;
+}
+
+.infos-stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.peresonel-infos {
+    display: flex;
+    flex-direction: column;
+    width: 42.97vw;
+}
+
+.section-title {
+    font-size: 2.34vw;
+    font-weight: 100;
+    color: #F8F7F7;
+    text-shadow: 1px 1px 1px #141414;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.info-group {
+    display: flex;
+    gap: 2.28vw 8.85vw;
+    flex-wrap: wrap;
+    width: 24.93vw;
+}
+
+.info {
+    width: 8vw;
+    white-space: nowrap;
+}
+
+.info label {
+    color: #F8F7F7;
+    font-size: 1.43vw;
+    font-weight: 600;
+}
+
+.info p {
+    display: inline-block;
+    color: #D74242;
+    font-size: 1.3vw;
+    font-weight: 600;
+    margin: 0;
+}
+
+.stat-group {
+    display: flex;
+    gap: 1.95vw 1.3vw;
+    width: 33.7vw;
+    flex-wrap: wrap;
+}
+
+.stat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15.62vw;
+    height: 10.74vw;
+    border: 2px solid #979797
+}
+
+.stat-number {
+    font-size: 3.12vw;
+    color: #D74242;
+    font-weight: 700;
+    margin-left: 1.63vw;
+}
+
+.stat-number span {
+    font-size: 2.6vw;
+    font-weight: initial;
+    text-shadow: none;
+}
+
+.stat-content {
+    font-size: 1.56vw;
+    margin-left: 5.86vw;
+    color: #F8F7F7;
+}
+
+.skills-section {
+    margin-top: 8.8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.skill-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 3.58vw 8.79vw;
+    width: 81.05vw;
+    margin-top: 4.56vw;
+    flex-wrap: wrap;
+}
+
+.skill-percent-group {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.69vw;
+    font-weight: 500;
+    color: #F8F7F7;
+}
+
+.progress-bar {
+    width: 36.13vw;
+    height: 0.65vw;
+    background-color: #D9D9D9;
+    border-radius: 0.65vw;
+}
+
+.progress-bar-filler {
+    background-color: #FF3636;
+    border-radius: 0.65vw;
+    height: 0.65vw;
+    width: 0;
+    transition: width 1.5s;
+}
+
+
+@media screen and (max-width:900px) {
+    #about {
+        margin: 22.2vw 9.44vw 10vw;
+    }
+
+    .infos-stats {
+        flex-direction: column;
+        align-items: center;
+        gap: 11.11vw;
+    }
+
+    .peresonel-infos {
+        width: 67.78vw;
+    }
+
+    .section-title {
+        font-size: 3.33vw;
+    }
+
+    .info-group {
+        gap: 3.89vw 15.11vw;
+        width: fit-content;
+        margin-top: 3.33vw;
+    }
+
+    .info {
+        width: 13.66vw;
+    }
+
+    .info label {
+        font-size: 2.22vw;
+    }
+
+    .info p {
+        font-size: 2.11vw;
+    }
+
+    .stat-group {
+        gap: 2.22vw 5.55vw;
+        width: 63vw;
+    }
+
+    .stat-container {
+        width: 27.77vw;
+        height: 20vw;
+    }
+
+    .stat-number {
+        font-size: 5.55vw;
+    }
+
+    .stat-number span {
+        font-size: 5.55vw;
+    }
+
+    .stat-content {
+        font-size: 2.66vw;
+    }
+
+
+
+    .skill-group {
+        gap: 6vw 6.33vw;
+        width: 72.55vw;
+    }
+
+    .skill-percent-group {
+        font-size: 2.44vw;
+    }
+
+    .progress-bar {
+        width: 31.66vw;
+        height: 0.55vw;
+    }
+
+    .progress-bar-filler {
+        height: 0.55vw;
+    }
+}
+
+@media screen and (max-width:450px) {
+    #about {
+        margin: 9vw 6.67vw;
+    }
+
+    .infos-stats {
+        gap: 12.44vw;
+    }
+
+    .peresonel-infos {
+        align-items: center;
+        width: 73.33vw;
+        gap: 5.55vw;
+    }
+
+    .section-title {
+        font-size: 4.44vw;
+        margin: 0;
+    }
+
+    .info-group {
+        gap: 8.6vw 4.6vw;
+        justify-content: space-around;
+    }
+
+    .info {
+        width: 28vw;
+    }
+
+    .info label {
+        font-size: 3.11vw;
+    }
+
+    .info p {
+        display: block;
+        font-size: 2.89vw;
+    }
+
+    .stat-group {
+        gap: 3.56vw 4.67vw;
+        width: 71.5vw;
+        margin: 0;
+    }
+
+    .stat-container {
+        width: 32.22vw;
+        height: 24.44vw;
+    }
+
+    .stat-number {
+        font-size: 7.11vw;
+    }
+
+    .stat-number span {
+        font-size: 6.22vw;
+    }
+
+    .stat-content {
+        font-size: 3.11vw;
+        margin-left: 11.78vw;
+    }
+
+    .skills-section {
+        margin-top: 13.33vw;
+    }
+
+
+
+    .skill-group {
+        flex-direction: column;
+        width: fit-content;
+        gap: 9.78vw;
+        margin-top: 13.33vw;
+    }
+
+    .skill-percent-group {
+        font-size: 3.56vw;
+    }
+
+    .progress-bar {
+        width: 63.33vw;
+        height: 1.11vw;
+    }
+
+    .progress-bar-filler {
+        height: 1.11vw;
+    }
+}

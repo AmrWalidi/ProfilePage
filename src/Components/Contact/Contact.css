@@ -1,0 +1,373 @@
+#contact {
+    margin-bottom: 13vw;
+}
+
+.contact-section-content {
+    display: flex;
+    gap: 3.9vw;
+    align-items: center;
+    margin-top: 5vw;
+}
+
+.side-info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4.56vw;
+    margin-left: 7.16vw;
+}
+
+.side-info {
+    display: flex;
+    gap: 1.3vw;
+    align-items: center;
+}
+
+.contact-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.26vw;
+    height: 3.26vw;
+    border-radius: 50%;
+    background-color: #FF3636;
+}
+
+.contact-icon {
+    font-size: 1.3vw;
+    color: white;
+}
+
+.info-title {
+    font-size: 1.82vw;
+    color: #F8F7F7;
+}
+
+.info-answer {
+    font-size: 1.3vw;
+    color: #686868;
+    width: 24.1vw;
+}
+
+input {
+    font-size: 1.56vw;
+    height: 3.9vw;
+    border-radius: 2.28vw;
+    border: 1px solid black;
+    margin: 0.65vw 0;
+    padding-left: 1.3vw;
+    background-color: #F6F6F6;
+}
+
+input:focus-visible {
+    background-color: #fefefe;
+}
+
+input::placeholder {
+    color: #808080;
+    font-size: 1.56vw;
+    padding-left: 1.3vw;
+}
+
+.top-inputs {
+    display: flex;
+    gap: 2.86vw;
+}
+
+.top-inputs input {
+    width: 23.11vw;
+}
+
+input.error {
+    background-color: rgba(245, 115, 115, 0.5);
+}
+
+p.error {
+    color: #ff2727;
+}
+
+input[name="subject"],
+input[name="message"] {
+    display: block;
+    width: 50.4vw;
+}
+
+input[name="message"] {
+    height: 16.8vw;
+    vertical-align: top;
+
+}
+
+input[name="message"]::placeholder {
+    position: absolute;
+    top: 10%;
+}
+
+.submit-button-container {
+    position: relative;
+    width: 16.28vw;
+    height: 3.26vw;
+    border: 1px solid #FF3636;
+    border-radius: 2.28vw;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.submit-button-container:active {
+    box-shadow: 0px 0px 0px;
+}
+
+.loading-bar {
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 3.26vw;
+    background-color: #FF3636;
+    z-index: -1;
+    transition: width 0.5s;
+}
+
+.submit-button-container:active .loading-bar {
+    background-color: #dc2e2e;
+}
+
+.submit-button-container:hover .loading-bar {
+    width: 16.3vw;
+}
+
+.submit-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.submit-button p {
+    font-size: 1.3vw;
+    color: #686868;
+    width: fit-content;
+    margin: 0 1.63vw;
+
+}
+
+.submit-button-container:hover .submit-button p {
+    color: white;
+}
+
+.send-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6.5vw;
+    width: 45.6vw;
+    font-size: 2.1vw;
+    font-family: cursive;
+    color: rgb(241, 35, 35);
+}
+
+@media screen and (max-width:900px) {
+    #contact {
+        margin-bottom: 22.2vw;
+    }
+
+    .contact-section-content {
+        flex-direction: column;
+        gap: 10.33vw;
+        align-items: start;
+        margin-top: 10vw;
+    }
+
+    .side-info-list {
+        gap: 6.66vw;
+        margin-left: 6.33vw;
+    }
+
+    .side-info {
+        gap: 3.33vw;
+    }
+
+    .contact-icon-container {
+        width: 6.67vw;
+        height: 6.67vw;
+    }
+
+    .contact-icon {
+        font-size: 2.78vw;
+    }
+
+    .info-title {
+        font-size: 3.11vw;
+    }
+
+    .info-answer {
+        font-size: 2.22vw;
+        width: 35vw;
+    }
+
+    form {
+        margin-left: 6.33vw;
+    }
+
+    input {
+        font-size: 2.22vw;
+        height: 8.33vw;
+        border-radius: 3.89vw;
+        margin: 1.11vw 0;
+        padding-left: 2.78vw;
+    }
+
+
+    input::placeholder {
+        padding-left: 2.78vw;
+        font-size: 2.22vw;
+    }
+
+    .top-inputs {
+        gap: 4.44vw;
+    }
+
+    .top-inputs input {
+        width: 36vw;
+    }
+
+
+    input[name="subject"],
+    input[name="message"] {
+        width: 80vw;
+    }
+
+    input[name="message"] {
+        height: 27.78vw;
+    }
+
+    .submit-button-container {
+        width: 29.78vw;
+        height: 6.67vw;
+        border-radius: 3.89vw;
+    }
+
+    .loading-bar {
+        height: 6.67vw;
+    }
+
+    .submit-button-container:hover .loading-bar {
+        width: 29.78vw;
+    }
+
+    .submit-button p {
+        font-size: 2.22vw;
+        width: fit-content;
+        margin: 0 2.22vw;
+    }
+
+    .send-message {
+        margin-bottom: 6.5vw;
+        width: 80vw;
+        height: 58.89vw;
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width:450px) {
+    #contact {
+        margin-bottom: 30vw;
+    }
+
+    .contact-section-content {
+        gap: 13.3vw;
+        align-items: center;
+        margin-top: 15vw;
+    }
+
+    .side-info-list {
+        gap: 8.89vw;
+        margin-left: 0;
+    }
+
+    .side-info {
+        gap: 4.44vw;
+        align-items: center;
+    }
+
+    .contact-icon-container {
+        width: 8.89vw;
+        height: 8.89vw;
+    }
+
+    .contact-icon {
+        font-size: 4.44vw;
+    }
+
+    .info-title {
+        font-size: 4.44vw;
+    }
+
+    .info-answer {
+        font-size: 3.56vw;
+        width: 55.56vw;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input {
+        font-size: 3.56vw;
+        height: 11.1vw;
+        border-radius: 7.78vw;
+        margin: 2.22vw 0;
+    }
+
+
+    input::placeholder {
+        font-size: 3.56vw;
+        padding-left: 5.56vw;
+    }
+
+    .top-inputs {
+        display: block;
+    }
+
+    .top-inputs input {
+        width: 72.22vw;
+    }
+
+
+    input[name="subject"],
+    input[name="message"] {
+        width: 72.22vw;
+    }
+
+    input[name="message"] {
+        height: 66.67vw;
+    }
+
+
+    .submit-button-container {
+        width: 44.4vw;
+        height: 8.9vw;
+        border-radius: 7.78vw;
+    }
+
+    .loading-bar {
+        height: 8.9vw;
+    }
+
+    .submit-button-container:hover .loading-bar {
+        width: 44.4vw;
+    }
+
+    .submit-button p {
+        font-size: 3.11vw;
+        margin: 0 4.44vw;
+
+    }
+
+    .send-message {
+        margin-bottom: 0;
+        width: 73.33vw;
+        font-size: 5.5vw;
+        text-align: center;
+    }
+}
