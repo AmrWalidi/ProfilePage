@@ -116,7 +116,7 @@ export const ProjectsDetails: ProjectsObj[] =[
         type: "Website",
         languages: "HTML, CSS, PHP",
         URL: "https://yemenddd.org/",
-        image: "./yemenddd.png"
+        image: "./yemenddd.jpg"
     },
     {
         title: "Turkish Sign Language Alphabet Detection System",

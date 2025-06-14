@@ -154,11 +154,11 @@
 
     .image {
         width: 58vw;
-        height: 34vh;
+        height: 34vw;
     }
 
     .popup-card {
-        width: 75.5vw;
+        width:auto;
         padding: 2.22vw;
         border-radius: 1.11vw;
     }
