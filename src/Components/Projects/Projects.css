@@ -104,7 +104,7 @@
     }
 
     .popup-card {
-        width: 68vw;
+        width: 82vw;
         padding: 1.11vw;
         border-radius: 0.56vw;
     }
@@ -116,7 +116,6 @@
 
     .popup-card-content {
         align-items: center;
-        flex-direction: column;
         gap: 3.33vw;
     }
 
@@ -169,6 +168,7 @@
     }
 
     .popup-card-content {
+        flex-direction: column;
         gap: 3.33vw;
     }
 
